@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot should pass snapshot tests 1`] = `
+<DocumentFragment>
+  <form
+    class="flex items-center justify-center bg-gray-200"
+    style="height: calc(100vh - 64px); overflow-y: auto;"
+  >
+    <div
+      class="w-full max-w-md"
+    >
+      <label
+        class="text-lg text-gray-800 text-center block mb-4"
+      >
+        Join us!
+      </label>
+      <div
+        class="mb-4 w-full"
+      >
+        <input
+          class="shadow border appearance-none border-blue-400 rounded text-gray-700 focus:outline-blue-400 w-full py-2 px-4"
+          data-testid="username"
+          id="username"
+          name="username"
+          placeholder="Username"
+          type="text"
+          value=""
+        />
+        <div />
+      </div>
+      <div
+        class="mb-4"
+      >
+        <input
+          class="shadow border appearance-none border-blue-400 rounded text-gray-700 focus:outline-blue-400 w-full py-2 px-4"
+          id="email"
+          name="email"
+          placeholder="Email"
+          type="text"
+          value=""
+        />
+        <div />
+      </div>
+      <div
+        class="mb-4"
+      >
+        <input
+          class="shadow border appearance-none border-blue-400 rounded text-gray-700 focus:outline-blue-400 w-full py-2 px-4"
+          id="password"
+          name="password"
+          placeholder="Password"
+          type="password"
+          value=""
+        />
+        <div />
+      </div>
+      <button
+        class="bg-black rounded shadow py-2 px-4 text-white justify-center hover:bg-gray-700 transition duration 300 ease-in-out"
+        type="submit"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</DocumentFragment>
+`;
